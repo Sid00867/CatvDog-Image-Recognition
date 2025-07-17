@@ -1,11 +1,11 @@
 # CatvDog-Image-Recognition
 
-A Convolutional Neural Network (CNN) built using **PyTorch** to classify images of dogs and cats. The model is trained on a labeled dataset with multiple convolutional and pooling layers, followed by fully connected layers for final binary classification. Training was done on Google Colab using a **T4 GPU**.
+A CNN built using **PyTorch** to classify images of dogs and cats. The model is trained on a labeled dataset with multiple convolutional and pooling layers, followed by fully connected layers for final binary classification. Training was done on Google Colab using a **T4 GPU**.
 
 ## Files
 
-- **`cat_dog_model_weights.pth`** – Trained model parameters (ready to use).  
-- **`cnn_predict`** – Command-line interface (CLI) tool.  
+- **`cat_dog_model_weights.pth`** – Trained model parameters.  
+- **`cnn_predict`** – CLI tool.  
   Use the following command to make a prediction:  
   `python cnn_predict --image_url <IMAGE_URL>`
 - **`predictu_GUI`** – Simple Tkinter-based GUI for prediction.  
