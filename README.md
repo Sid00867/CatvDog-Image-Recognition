@@ -14,13 +14,3 @@ A CNN built using **PyTorch** to classify images of dogs and cats. The model is 
 ## Dataset
 
 The model was trained on the [Cat and Dog dataset from Kaggle](https://www.kaggle.com/datasets/tongpython/cat-and-dog).  
-
-## Example
-
-**CLI:**  
-`python cnn_predict --image_url https://example.com/dog.jpg`
-
-**GUI:**  
-Run:  
-`python predictu_GUI.py`  
-Then paste the image URL and click **"Predict"**.
