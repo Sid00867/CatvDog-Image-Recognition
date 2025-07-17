@@ -11,6 +11,10 @@ A CNN built using **PyTorch** to classify images of dogs and cats. The model is 
 - **`predictu_GUI`** – Simple Tkinter-based GUI for prediction.  
   Paste an image URL and click **"Predict"**.
 
+## Dataset
+
+The model was trained on the [Cat and Dog dataset from Kaggle](https://www.kaggle.com/datasets/tongpython/cat-and-dog).  
+
 ## Example
 
 **CLI:**  
